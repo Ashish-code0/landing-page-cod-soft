@@ -1,0 +1,277 @@
+<html lang="en">
+  <head>
+    <title>Group Project 2</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      
+    <!-- Header code -->
+      <div class="shop-header">
+        <a href="./index.html">
+          <div class="shop-container">
+            <img src="./images/home/logo.png" alt="logo" class="shop-logo" />
+            <p class="shop-name">Readit</p>
+          </div>
+        </a>
+        <div class="search-container">
+          <input type="text" placeholder="Rich Dad Poor Dad" class="search-bar" id="search-book"/>
+          <button type="button" class="search-button">
+            Search
+          </button>
+        </div>
+
+        <div class="navbar-menu-container">
+          <button type="button" class="navbar-menu">
+            <a href="./pages/login.html" class="navbar-anchor"> Login </a>
+          </button>
+          <button type="button" class="navbar-menu">
+            <a href="./pages/fiction.html" class="navbar-anchor"> Fiction </a>
+          </button>
+          <button type="button" class="navbar-menu">
+            <a href="./pages/non-fiction.html" class="navbar-anchor">
+              Non-fiction
+            </a>
+          </button>
+          <button type="button" class="navbar-menu">
+            <a href="./pages/novel.html" class="navbar-anchor"> Novel </a>
+          </button>
+          <button type="button" class="navbar-menu">
+            <a href="./pages/historic.html" class="navbar-anchor"> Historic </a>
+          </button>
+          
+        </div>
+      </div>
+
+      <!--Page body code-->
+      <div class="shop-body">
+      <div class="searched-sections" id="hidden-search-id">
+        <!-- Search book title and close button -->
+        <div class="search-section-container">
+          <p class="search-book-title">Searched Book:</p>
+          <button type="button" class="closeSearch" >
+            <i class="fa-solid fa-xmark" style="color: white"></i>
+          </button>
+        </div>
+
+        <!-- Searched card -->
+        <div style="display: flex; justify-content: space-around; align-items: center;">
+          <div class="search-card">
+            <img src="./images/home/heart.png" ="wishlistHeart()" class="wishlist-btn" id="wishlistIconId">
+            <img src="./images/personality/ikigai.jpeg" class="books-img" id="book-img-id"/>
+            <p class="books-name" id="book-name-id">
+              Ikigai: The Japanese Secret to a Long and Happy Life
+            </p>
+            <p class="books-price" id="book-price-id">499/-</p>
+              <button type="button" class="add-cart-btn"  >
+                Add to cart
+              </button>
+          </div>
+          <p class="book-summary" id="bookSummaryId">Ikigai by Héctor García & Francesc Miralles is book which talks about finding your purpose and then following it with all heart to live a happy and satisfying life. The authors take us in this search along with them and make us understand how people of Japan have been living a long and a happy life.</p>
+        </div>
+      </div>
+
+      <span class="book-section-title"> About Us </span>
+
+      <div class="about-section"> 
+        <img class="about-us-img" src="./images/background-2.png"/>
+        <div class="about-div">
+            <h3 class="about-head"> Welcome to Readit, where the world of literature comes to life!</h3>
+
+            <p class="about-para">
+                At Readit, we're passionate about connecting readers with the stories, knowledge, and imagination found within the pages of books. As avid readers ourselves, we understand the profound impact that a good book can have on your life.
+                Our mission is to curate a diverse selection of books that cater to all tastes and interests. Whether you're an adventure-seeker, a history buff, a romance aficionado, or a lover of classics, we have something special waiting for you on our shelves.
+            </p>    
+                
+             <h4 class="about-foot">
+                Thank you for choosing Readit as your literary companion. Happy reading!
+             </h4>   
+           
+        </div>
+            
+      </div>
+
+      <span class="book-section-title"> Personality Development Books</span>
+      <!-- Section 1-->
+      <div class="shop-sections" >
+        
+        <div class="books-card"> 
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-1')" class="wishlist-btn" id="wishlist-1"/>
+          <img src="./images/personality/ikigai.jpeg" class="books-img" />
+          <p class="books-name">
+            Ikigai: The Japanese Secret to a Long and Happy Life
+          </p>
+          <p class="books-price">499/-</p>
+          <button type="button" class="add-cart-btn"  >
+            Add to cart
+          </button>
+        </div>
+        
+        <div class="books-card">
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-2')" class="wishlist-btn" id="wishlist-2"/>
+          <img src="./images/personality/atomic-habit.jpeg" class="books-img" />
+          <p class="books-name">Atomic Habits Paperback _ 1 January 2018</p>
+          <p class="books-price">600/-</p>
+            <button type="button" class="add-cart-btn" >
+              Add to cart
+            </button>
+        </div>
+
+        <div class="books-card" >
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-3')" class="wishlist-btn" id="wishlist-3"/>
+          <img src="./images/personality/psychology-of-money.jpg" class="books-img"/>
+          <p class="books-name">
+            The Psychology Of Money Paperback _ 1 September 2020
+          </p>
+          <p class="books-price">550/-</p>
+          <button type="button" class="add-cart-btn" >
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-4')" class="wishlist-btn" id="wishlist-4"/>
+          <img src="./images/personality/rich-dad-poor-dad.jpeg" class="books-img"/>
+          <p class="books-name">Rich Dad Poor Dad: 25th Anniversary Edit</p>
+          <p class="books-price">400/-</p>
+          <button type="button" class="add-cart-btn" >
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-5')" class="wishlist-btn" id="wishlist-5"/>
+          <img src="./images/personality/think-and-grow-rich.png" class="books-img" />
+          <p class="books-name">Think and Grow Rich: The Landmark Bestseller</p>
+          <p class="books-price">649/-</p>
+          <button type="button" class="add-cart-btn"  >
+            Add to cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Section 2-->
+      <span class="book-section-title"> Fiction Based Books </span>
+      <div class="shop-sections">
+        <div class="books-card">
+          <img src="./images/home/heart.png" ="wishlistHeartAll('wishlist-6')" class="wishlist-btn" id="wishlist-6">
+          <img src="./images/fiction/divine-rivals.png" class="books-img" />
+          <p class="books-name">
+            Divine Rivals: A Novel: 1 (Letters of Enchantment, 1)
+          </p>
+          <p class="books-price">500/-</p>
+          <button type="button" class="add-cart-btn" >
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png"  class="wishlist-btn" id="wishlist-7">
+          <img src="./images/fiction/fire-blood.jpeg" class="books-img" />
+          <p class="books-name">
+            Fire And Blood: The House Of Dragons : Book One: 1
+          </p>
+          <p class="books-price">300/-</p>
+          <button type="button" class="add-cart-btn" >
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png"  class="wishlist-btn" id="wishlist-8">
+          <img src="./images/fiction/game-of-thrones.jpeg" class="books-img" />
+          <p class="books-name">
+            A Game of Thrones: A Song Of Ice And Fire: Book One: 1
+          </p>
+          <p class="books-price">700/-</p>
+          <button type="button" class="add-cart-btn">
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png"  class="wishlist-btn" id="wishlist-9">
+          <img src="./images/fiction/fourth-wing.png" class="books-img" />
+          <p class="books-name">
+            Fourth Wing: The Empyrean Discover the Instant
+          </p>
+          <p class="books-price">499/-</p>
+          <button type="button" class="add-cart-btn">
+            Add to cart
+          </button>
+        </div>
+        <div class="books-card">
+          <img src="./images/home/heart.png"  class="wishlist-btn" id="wishlist-10">
+          <img src="./images/fiction/iron-flame.jpg" class="books-img" />
+          <p class="books-name">Iron Flame: The Sequel of Fourth Wing</p>
+          <p class="books-price">499/-</p>
+          <button type="button" class="add-cart-btn"  >
+            Add to cart
+          </button>
+        </div>
+      </div>
+          
+     <!-- Body section end --> 
+    </div>
+    
+    <!-- Footer Section -->
+
+    <div class="shop-footer">
+      <div class="footer-sec">
+        <p class="footer-sec-title">Quick Links</p>
+        <div class="footer-data" style="padding-left:20px;">
+          <p><a href="index.html">Home </a></p>
+          <p><a href="./pages/fiction.html">Fiction </a></p>
+          <p><a href="./pages/personality.html">Personality </a></p>
+          <p><a href="./pages/non-fiction.html">Non-fiction </a></p>
+          <p><a href="./pages/novel.html"> Novel </a></p>
+          <p><a href="./pages/historic.html"> Historic </a></p>
+          <p><a href="./pages/login.html"> Login </a></p>
+        </div>
+      </div>
+      <div class="footer-sec">
+        <p class="footer-sec-title">Social :</p>
+        <div class="footer-data">
+          <p>
+            <i class="fa-solid fa-envelope"></i> &nbsp; &nbsp;
+            <a href="mailto:ashishgore382@gmail.com">ashishgore382@gmail.com</a>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-phone"></i> &nbsp; &nbsp;
+            <a href="tel:+918805803087" class="footer-anchor">
+              +91-8805803087</a
+            >
+          </p>
+
+          <p style="cursor: pointer;"><i class="fa-brands fa-facebook" ></i> &nbsp; &nbsp; Facebook</p>
+
+          <p style="cursor: pointer;"><i class="fa-brands fa-twitter"></i> &nbsp; &nbsp; Twitter</p>
+
+          <p style="cursor: pointer;"><i class="fa-brands fa-instagram"></i> &nbsp; &nbsp; Instagram</p>
+
+          <p style="cursor: pointer;"><i class="fa-brands fa-linkedin"></i> &nbsp; &nbsp; LinkedIn</p>
+        </div>
+      </div>
+      <div class="footer-sec">
+        <p class="footer-sec-title">
+          <a href="./pages/contact.html"> Contact us :</a>
+        </p>
+        <div class="footer-data">
+          <p>
+            <i class="fa-solid fa-location-dot"></i> &nbsp; &nbsp;
+            <a href="https://maps.app.goo.gl/N3ngnED1vBDYVvj19" target="blank">
+              B.D.College of Engineering, Wardha</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> &nbsp; &nbsp;
+            <a href="mailto:ashishgore393@gmail.com">ashishgore393@gmail.com</a>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-phone"></i> &nbsp; &nbsp;
+            <a href="tel:+918975004427"> +91-8975004427</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4d47a5db67.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
